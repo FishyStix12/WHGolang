@@ -21,7 +21,7 @@
 
 # Fundamentals of Golang <br />
 ![image](https://github.com/FishyStix12/White-Hat-Go-/assets/102126354/4650c928-f66a-494b-9c05-e02af87698e9) <br />
-**The "go doc <command>" pulls documentation about a function, package, variable, or method, and is embedded as comments in the code!** <br />
+**The "go doc \<command\>" pulls documentation about a function, package, variable, or method, and is embedded as comments in the code!** <br />
 
 **The Following List gives a short description of all the scripts in this group:** <br />
 1. hello_world.go - The script is a simple Go program that demonstrates the basic structure of a Go application. It starts by declaring that it belongs to the `main` package, imports the "fmt" package for formatting input and output, defines the `main` function as the entry point of the program, and then prints "Hello, White Hat Gophers!" to the console using the `fmt.Println` function. This script serves as a starting point for learning how to write and execute Go programs. <br />
