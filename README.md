@@ -4,7 +4,7 @@
 
 **Import Note: Please read this statement carefully: By downloading any of the scripts in this repository, you, as the user, take full responsibility for storing, and using these scripts. You also take full responsibility for any misuse of these malicious codes.** <br />
 
-# Go Linux Setup <br />
+# Golang Linux Setup <br />
 ![image](https://github.com/FishyStix12/White-Hat-Go-/assets/102126354/05e0dca4-a04f-4ed1-842e-5ab143ace30a) <br />
 **Please run these scripts in your home directory!** <br />
 
@@ -19,7 +19,7 @@
                6. gau by lc for Google Analytics data collection. <br />
                7. assetfinder by tomnomnom for finding domains and subdomains. <br />
 
-# Fundamentals of Go Programming <br />
+# Fundamentals of Golang <br />
 ![image](https://github.com/FishyStix12/White-Hat-Go-/assets/102126354/4650c928-f66a-494b-9c05-e02af87698e9) <br />
 **The Following List gives a short description of all the scripts in this group:** <br />
 1. hello_world.go - The script is a simple Go program that demonstrates the basic structure of a Go application. It starts by declaring that it belongs to the `main` package, imports the "fmt" package for formatting input and output, defines the `main` function as the entry point of the program, and then prints "Hello, White Hat Gophers!" to the console using the `fmt.Println` function. This script serves as a starting point for learning how to write and execute Go programs. <br />
