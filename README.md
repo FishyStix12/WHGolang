@@ -6,8 +6,8 @@
 **Import Note: Please read this statement carefully: By downloading any of the scripts in this repository, you, as the user, take full responsibility for storing, and using these scripts. You also take full responsibility for any misuse of this malicious codes. Finally, Please note that any data the Trojan extracts will be posted to a GitHub repository, and if that repository is public, all the extracted data will be available for the whole world to see.** <br />
 
 # Go Linux Setup <br />
-![image](https://github.com/FishyStix12/White-Hat-Go-/assets/102126354/e7d8328b-b8b6-415f-b4ef-93ea5632d28c) <br />
-**Please run these scripts in your home directory!**
+![image](https://github.com/FishyStix12/White-Hat-Go-/assets/102126354/05e0dca4-a04f-4ed1-842e-5ab143ace30a) <br />
+**Please run these scripts in your home directory!** <br />
 
 **The Following List gives a short description of all the scripts in this group:** <br />
 1. goconfig.sh - This Bash script installs the Go programming language on a Linux system using the `sudo apt install -y golang` command. It then sets up environment variables (`GOROOT`, `GOPATH`, and updates `PATH`) in the `.bashrc` file to configure the Go development environment. Finally, it reloads the `.bashrc` file using the `source .bashrc` command to apply the changes immediately. <br />
