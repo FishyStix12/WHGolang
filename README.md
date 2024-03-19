@@ -28,7 +28,8 @@
 
 **Example output of some of the go commands, and scripts:** <br />
 1. go doc fmt.Println <br />
-    Println formats using the default formats for its operands and writes to <br />
-    standard output. Spaces are always added between operands and a newline <br />
-    is appended. It returns the number of bytes written and any write error <br />
-    encountered. <br />
+    func Println(a ...any) (n int, err error) <br />
+         Println formats using the default formats for its operands and writes to <br />
+         standard output. Spaces are always added between operands and a newline <br />
+         is appended. It returns the number of bytes written and any write error <br />
+         encountered. <br />
