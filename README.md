@@ -11,4 +11,4 @@
 
 **The Following List gives a short description of all the scripts in this group:** <br />
 1. goconfig.sh - This Bash script installs the Go programming language on a Linux system using the `sudo apt install -y golang` command. It then sets up environment variables (`GOROOT`, `GOPATH`, and updates `PATH`) in the `.bashrc` file to configure the Go development environment. Finally, it reloads the `.bashrc` file using the `source .bashrc` command to apply the changes immediately. <br />
-2. gomods.py - This script is a Python program designed to install specified Golang modules. It defines a function `install_golang_module` that takes a Golang module name as input and installs it if it's not already installed. The script iterates through a list of Golang modules to install and calls the `install_golang_module` function for each module. It uses environment variables and system commands (`os.system`) to execute the installation commands. <br />
+2. gomods.sh -
