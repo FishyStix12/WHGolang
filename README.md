@@ -25,3 +25,10 @@
 
 **The Following List gives a short description of all the scripts in this group:** <br />
 1. hello_world.go - The script is a simple Go program that demonstrates the basic structure of a Go application. It starts by declaring that it belongs to the `main` package, imports the "fmt" package for formatting input and output, defines the `main` function as the entry point of the program, and then prints "Hello, White Hat Gophers!" to the console using the `fmt.Println` function. This script serves as a starting point for learning how to write and execute Go programs. <br />
+
+**Example output of some of the go commands, and scripts:** <br />
+1. go doc fmt.Println <br />
+    Println formats using the default formats for its operands and writes to <br />
+    standard output. Spaces are always added between operands and a newline <br />
+    is appended. It returns the number of bytes written and any write error <br />
+    encountered. <br />
