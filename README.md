@@ -11,4 +11,14 @@
 
 **The Following List gives a short description of all the scripts in this group:** <br />
 1. goconfig.sh - This Bash script installs the Go programming language on a Linux system using the `sudo apt install -y golang` command. It then sets up environment variables (`GOROOT`, `GOPATH`, and updates `PATH`) in the `.bashrc` file to configure the Go development environment. Finally, it reloads the `.bashrc` file using the `source .bashrc` command to apply the changes immediately. <br />
-2. gomods.sh -
+2. gomods.sh - This Bash script installs the latest versions of several Go programs from their respective GitHub repositories. The programs being installed are: <br />
+               1. dalfox by hahwul for web application vulnerability scanning. <br />
+               2. qsreplace by tomnomnom for URL query string manipulation. <br />
+               3. hakrawler by hakluke for website crawling and analysis. <br />
+               4. httprobe by tomnomnom for HTTP/HTTPS probe. <br />
+               5. wildcheck by theblackturtle for wildcard domain detection. <br />
+               6. gau by lc for Google Analytics data collection. <br />
+               7. assetfinder by tomnomnom for finding domains and subdomains. <br />
+
+# Fundamentals of Go Programming <br />
+![image](https://github.com/FishyStix12/White-Hat-Go-/assets/102126354/4650c928-f66a-494b-9c05-e02af87698e9) <br />
