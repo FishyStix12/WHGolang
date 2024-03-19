@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt-get update
 sudo apt install -y golang
 
 # Then add the following to your .bashrc
