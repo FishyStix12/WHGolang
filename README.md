@@ -2,7 +2,7 @@
 # By: Nicholas Fisher <br />
 **Disclaimer: These scripts should only be used in cases where the user has permission to use these scripts on the subject systems!** <br />
 
-**Import Note: Please read this statement carefully: By downloading any of the scripts in this repository, you, as the user, take full responsibility for storing, and using these scripts. You also take full responsibility for any misuse of this malicious codes.** <br />
+**Import Note: Please read this statement carefully: By downloading any of the scripts in this repository, you, as the user, take full responsibility for storing, and using these scripts. You also take full responsibility for any misuse of these malicious codes.** <br />
 
 # Go Linux Setup <br />
 ![image](https://github.com/FishyStix12/White-Hat-Go-/assets/102126354/05e0dca4-a04f-4ed1-842e-5ab143ace30a) <br />
