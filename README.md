@@ -27,13 +27,23 @@
 
 **The "golint \/path\/to\/your\/script" command reports style mistakes such as missing comments, variables names that don't follow conventions, etc.** <br />
 
-**Install goline by entering "go get -u golang.org\/x\/lint\/golint"**
+**Install goline by entering "go get -u golang.org\/x\/lint\/golint"** <br />
 
-**The "go vet \/path\/to\/your\/script" command attempts to identify issues, some of which might be bugs, that the compiler might miss!**
+**The "go vet \/path\/to\/your\/script" command attempts to identify issues, some of which might be bugs, that the compiler might miss!** <br />
+
+**Explanation of Complex Data Types:** <br />
+**1. Slices:** <br />
+  A slice in Go is a data structure that provides a flexible way to work with sequences of elements. It's like a dynamically-sized array. Slices are created using the make function, as shown in the code. They are defined by <br />
+  specifying the type of elements they contain (in this case, strings). Slices can grow and shrink dynamically, making them useful for managing collections of data. <br />
+
+**2. Maps:** <br />
+  A map in Go is a data structure that represents a collection of key-value pairs, where each key is unique. It's similar to a dictionary in Python or an associative array in other languages. Maps are created using the make <br />
+  function, as demonstrated in the code. In the code, a map with string keys and string values is declared. Values can be accessed and modified using their corresponding keys. <br />
 
 **The Following List gives a short description of all the scripts in this group:** <br />
 1. hello_world.go - The script is a simple Go program that demonstrates the basic structure of a Go application. It starts by declaring that it belongs to the `main` package, imports the "fmt" package for formatting input and output, defines the `main` function as the entry point of the program, and then prints "Hello, White Hat Gophers!" to the console using the `fmt.Println` function. This script serves as a starting point for learning how to write and execute Go programs. <br />
 2. primdat.go - The provided Go script initializes two variables: `x` with the string "Hello New World" and `z` with the integer 42. It then prints the values of these variables to the console. A primitive data type is a basic building block of a programming language that represents simple values, such as numbers (like integers and floating-point numbers) or characters (like letters and symbols). These data types are predefined by the programming language and are used to store and manipulate data in programs. Primitive data types typically have a fixed size and behavior defined by the programming language. In simple terms, you can think of them as the elemental pieces of data that a program can work with, like individual bricks in a construction project. <br />
+3. slicemaps.go - The code provided is a simple Go program that demonstrates the use of slices and maps, which are two common complex data types in Go. <br />
 
 **Example output of some of the go commands, and scripts:** <br />
 1. "go doc fmt.Println" command output: <br />
