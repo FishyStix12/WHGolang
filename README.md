@@ -33,13 +33,13 @@
 
 **Explanation of Complex Data Types:** <br />
 **1. Slices:** <br />
-  A slice in Go is a data structure that provides a flexible way to work with sequences of elements. It's like a dynamically-sized array. Slices are created using the make function, as shown in the code. They are defined by specifying the type of elements they contain (in this case, strings). Slices can grow and shrink dynamically, making them useful for managing collections of data. <br />
+     A slice in Go is a data structure that provides a flexible way to work with sequences of elements. It's like a dynamically-sized array. Slices are created using the make function, as shown in the code. They are defined by specifying the type of elements they contain (in this case, strings). Slices can grow and shrink dynamically, making them useful for managing collections of data. <br />
 
 **2. Maps:** <br />
-  A map in Go is a data structure that represents a collection of key-value pairs, where each key is unique. It's similar to a dictionary in Python or an associative array in other languages. Maps are created using the make function, as demonstrated in the code. In the code, a map with string keys and string values is declared. Values can be accessed and modified using their corresponding keys. <br />
+     A map in Go is a data structure that represents a collection of key-value pairs, where each key is unique. It's similar to a dictionary in Python or an associative array in other languages. Maps are created using the make function, as demonstrated in the code. In the code, a map with string keys and string values is declared. Values can be accessed and modified using their corresponding keys. <br />
 
 **3. Pointers** <br />
-  A pointer is a variable that stores the memory address of another variable. Pointers allow indirect access to the value of the variable they point to. They are used to share data between different parts of a program efficiently and to enable the manipulation of data indirectly. In Go, pointers are represented using the * symbol followed by the type of the variable they point to. <br />
+     A pointer is a variable that stores the memory address of another variable. Pointers allow indirect access to the value of the variable they point to. They are used to share data between different parts of a program efficiently and to enable the manipulation of data indirectly. In Go, pointers are represented using the * symbol followed by the type of the variable they point to. <br />
 
 **The Following List gives a short description of all the scripts in this group:** <br />
 1. hello_world.go - The script is a simple Go program that demonstrates the basic structure of a Go application. It starts by declaring that it belongs to the `main` package, imports the "fmt" package for formatting input and output, defines the `main` function as the entry point of the program, and then prints "Hello, White Hat Gophers!" to the console using the `fmt.Println` function. This script serves as a starting point for learning how to write and execute Go programs. <br />
