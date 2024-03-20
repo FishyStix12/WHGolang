@@ -9,7 +9,7 @@
 **Please run these scripts in your home directory!** <br />
 
 **The Following List gives a short description of all the scripts in this group:** <br />
-1. goconfig.sh - This Bash script installs the Go programming language on a Linux system using the `sudo apt install -y golang` command. It then sets up environment variables (`GOROOT`, `GOPATH`, and updates `PATH`) in the `~/.bashrc` file to configure the Go development environment. Finally, it reloads the `~/.bashrc` file using the `source ~/.bashrc` command to apply the changes immediately. <br />
+1. goconfig.sh - This Bash script installs the Go programming language on a Linux system using the `sudo apt install golang-go` command. It then sets up environment variables (`GOROOT`, `GOPATH`, and updates `PATH`) in the `~/.bashrc` file to configure the Go development environment. Finally, it reloads the `~/.bashrc` file using the `source ~/.bashrc` command to apply the changes immediately. <br />
 2. gomods.sh - This Bash script installs the latest versions of several Go programs from their respective GitHub repositories. The programs being installed are: <br />
                1. dalfox by hahwul for web application vulnerability scanning. <br />
                2. qsreplace by tomnomnom for URL query string manipulation. <br />
