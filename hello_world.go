@@ -15,5 +15,5 @@ import (
 )
 
 func main() { // Defines the 'main' function, which is the entry point of the program
-    fmt.Println("Hello, Black Hat Gophers!") // Prints the message "Hello, White Hat Gophers!" to the console
+    fmt.Println("Hello, White Hat Gophers!") // Prints the message "Hello, White Hat Gophers!" to the console
 }
