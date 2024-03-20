@@ -43,6 +43,8 @@
 
 **4. Struct** <br />
      A struct is a composite data type that groups together zero or more fields of possibly different types under a single name. It allows you to create custom data types by defining the structure of the data, similar to classes in object-oriented programming languages. Each field within a struct can have its own name and type. Structs are used to represent more complex data structures and enable better organization and management of related data in your programs. <br />
+**5. Interface** <br />
+     An interface is a type that specifies a set of method signatures. An interface defines behavior, but it does not provide implementations for the methods it declares. Instead, any type that implements all the methods declared in the interface is said to satisfy or implement the interface implicitly. This allows for polymorphic behavior, where different types can be treated interchangeably if they implement the same interface. Interfaces promote loose coupling between components and enable abstraction, making it easier to write modular and extensible code in Go. <br />
 
 **The Following List gives a short description of all the scripts in this group:** <br />
 1. hello_world.go - The script is a simple Go program that demonstrates the basic structure of a Go application. It starts by declaring that it belongs to the `main` package, imports the "fmt" package for formatting input and output, defines the `main` function as the entry point of the program, and then prints "Hello, White Hat Gophers!" to the console using the `fmt.Println` function. This script serves as a starting point for learning how to write and execute Go programs. <br />
@@ -50,6 +52,7 @@
 3. slicemaps.go - The code provided is a simple Go program that demonstrates the use of slices and maps, which are two common complex data types in Go. <br />
 pointer.go - The provided Go script demonstrates the usage of pointers in Go programming language. It initializes an integer variable `count` with the value 42, creates a pointer `ptr` to this variable, and then prints the value of `count` via the pointer. Afterward, it modifies the value of `count` through the pointer, assigning it the value 100, and prints the updated value of `count`. This script illustrates how pointers can be used to indirectly access and modify variables in Go. <br />
 4. struct.go - This Go code defines a simple program that demonstrates the use of structs, methods, and basic I/O in Go. It declares a struct type Person with fields for name and age, and a method SayHello() to greet a person by name. In the main() function, it creates an instance of Person, sets the name, and calls the SayHello() method to print a greeting. <br />
+5. interface.go - This Go script defines a Person struct with fields for name and age, along with a method SayHello() to greet a person by printing their name. It also defines an interface Friend with a method SayHello(). The Person struct implicitly implements this interface. In the main() function, it creates a person named "Nicholas Fisher" and greets them using the SayHello() method. <br />
 
 **Example output of some of the go commands, and scripts:** <br />
 1. "go doc fmt.Println" command output: <br />
