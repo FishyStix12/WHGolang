@@ -31,7 +31,7 @@
 
 **The "go vet \/path\/to\/your\/script" command attempts to identify issues, some of which might be bugs, that the compiler might miss!** <br />
 
-**Explanation of Complex Data Types:** <br />
+**Explanation of the Structure of Golang:** <br />
 **1. Slices:** <br />
      A slice in Go is a data structure that provides a flexible way to work with sequences of elements. It's like a dynamically-sized array. Slices are created using the make function, as shown in the code. They are defined by specifying the type of elements they contain (in this case, strings). Slices can grow and shrink dynamically, making them useful for managing collections of data. <br />
 
@@ -54,6 +54,7 @@
 pointer.go - The provided Go script demonstrates the usage of pointers in Go programming language. It initializes an integer variable `count` with the value 42, creates a pointer `ptr` to this variable, and then prints the value of `count` via the pointer. Afterward, it modifies the value of `count` through the pointer, assigning it the value 100, and prints the updated value of `count`. This script illustrates how pointers can be used to indirectly access and modify variables in Go. <br />
 4. struct.go - This Go code defines a simple program that demonstrates the use of structs, methods, and basic I/O in Go. It declares a struct type Person with fields for name and age, and a method SayHello() to greet a person by name. In the main() function, it creates an instance of Person, sets the name, and calls the SayHello() method to print a greeting. <br />
 5. interface.go - This Go script defines a Person struct with fields for name and age, along with a method SayHello() to greet a person by printing their name. It also defines an interface Friend with a method SayHello(). The Person struct implicitly implements this interface. In the main() function, it creates a person named "Nicholas Fisher" and greets them using the SayHello() method. <br />
+6. function.go - This Go script defines a Person struct with a SayHello() method and an interface Friend with a SayHello() method. It demonstrates creating an instance of the Person struct, setting its name, and calling the SayHello() method. Additionally, it showcases the use of interfaces in Go. <br />
 
 **Example output of some of the go commands, and scripts:** <br />
 1. "go doc fmt.Println" command output: <br />
