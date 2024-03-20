@@ -27,9 +27,9 @@
 
 **The "golint \/path\/to\/your\/script" command reports style mistakes such as missing comments, variables names that don't follow conventions, etc.** <br />
 
-**The "go vet \/path\/to\/your\/script" command attempts to identify issues, some of which might be bugs, that the compiler might miss!**
-
 **Install goline by entering "go get -u golang.org\/x\/lint\/golint"**
+
+**The "go vet \/path\/to\/your\/script" command attempts to identify issues, some of which might be bugs, that the compiler might miss!**
 
 **The Following List gives a short description of all the scripts in this group:** <br />
 1. hello_world.go - The script is a simple Go program that demonstrates the basic structure of a Go application. It starts by declaring that it belongs to the `main` package, imports the "fmt" package for formatting input and output, defines the `main` function as the entry point of the program, and then prints "Hello, White Hat Gophers!" to the console using the `fmt.Println` function. This script serves as a starting point for learning how to write and execute Go programs. <br />
