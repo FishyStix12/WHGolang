@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt-get update
-sudo apt install -y golang
+sudo apt install golang-go
 
 # Then add the following to your .bashrc
 export GOROOT=/usr/lib/go
