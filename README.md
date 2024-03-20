@@ -27,6 +27,8 @@
 
 **The "golint \/path\/to\/your\/script" command reports style mistakes such as missing comments, variables names that don't follow conventions, etc.** <br />
 
+**The "go vet \/path\/to\/your\/script" command attempts to identify issues, some of which might be bugs, that the compiler might miss!**
+
 **Install goline by entering "go get -u golang.org\/x\/lint\/golint"**
 
 **The Following List gives a short description of all the scripts in this group:** <br />
