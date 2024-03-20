@@ -43,6 +43,7 @@
 
 **4. Struct** <br />
      A struct is a composite data type that groups together zero or more fields of possibly different types under a single name. It allows you to create custom data types by defining the structure of the data, similar to classes in object-oriented programming languages. Each field within a struct can have its own name and type. Structs are used to represent more complex data structures and enable better organization and management of related data in your programs. <br />
+     
 **5. Interface** <br />
      An interface is a type that specifies a set of method signatures. An interface defines behavior, but it does not provide implementations for the methods it declares. Instead, any type that implements all the methods declared in the interface is said to satisfy or implement the interface implicitly. This allows for polymorphic behavior, where different types can be treated interchangeably if they implement the same interface. Interfaces promote loose coupling between components and enable abstraction, making it easier to write modular and extensible code in Go. <br />
 
