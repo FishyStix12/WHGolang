@@ -7,7 +7,6 @@
 // SayHello() method. Additionally, it showcases the use of interfaces in Go.
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 package main // Declares the package name. A Go program starts running in package main.
-package main // Declares the package name. A Go program starts running in package main.
 
 import "fmt" // Imports the fmt package, which implements formatted I/O.
 
@@ -29,7 +28,7 @@ type Friend interface {
 	SayHello()
 }
 
-func Greet (f Friend) {
+func Greet(f Friend) {
 	f.SayHello()
 }
 
@@ -45,4 +44,5 @@ func main() {
 	// Calls the SayHello() method on the guy struct pointer.
 	// This prints "Hello, Nicholas Fisher" to the console.
 	guy.SayHello()
+	Greet(guy)
 }
