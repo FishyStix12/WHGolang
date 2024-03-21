@@ -88,5 +88,5 @@ pointer.go - The provided Go script demonstrates the usage of pointers in Go pro
          encountered. <br />
 
 # Network Tools <br />
-![image](https://github.com/FishyStix12/WHGolang/assets/102126354/0e1dc2ae-f6f6-4061-ad3d-268550b438b5) <br />
+![image](https://github.com/FishyStix12/WHGolang/assets/102126354/d520888b-b93b-4720-a15f-3d3aaef36726) <br />
 **Coming Soon!** <br />
