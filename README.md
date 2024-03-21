@@ -86,3 +86,7 @@ pointer.go - The provided Go script demonstrates the usage of pointers in Go pro
          standard output. Spaces are always added between operands and a newline <br />
          is appended. It returns the number of bytes written and any write error <br />
          encountered. <br />
+
+# Network Tools <br />
+![image](https://github.com/FishyStix12/WHGolang/assets/102126354/0e1dc2ae-f6f6-4061-ad3d-268550b438b5) <br />
+**Coming Soon!** <br />
