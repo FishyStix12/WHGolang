@@ -19,5 +19,6 @@ func strlen(s string, c chan int) { // Defines a function named strlen which tak
 func main() { // Defines the main function
   c := make(chan int) // Creates a channel named c of type int
 	go strlen("Salutations", c) // Launches the strlen function in a separate goroutine, passing "Salutations" and the channel c
+	go strlen("World", c) // Launches the strlen function in a separate goroutine, passing "World" and the channel c
 	x, y := <-c, <-c // Receives values from the channel c into variables x and y
 	fmt.Println(x, y, x+y) // Prints the values of x, y, and their sum
