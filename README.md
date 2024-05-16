@@ -92,6 +92,7 @@ pointer.go - The provided Go script demonstrates the usage of pointers in Go pro
 **The Following List gives a short description of all the scripts in this group:** <br />
 1. SimpleScan.go - This Go script attempts to establish a TCP connection to the server "scanme.nmap.org" on port 80. If the connection is successful, it prints "Connection successful" to the console. <br />
 2. Concurrentscan.go - This Go script conducts a TCP port scan on the server "scanme.nmap.org" across ports 1 through 1024. It utilizes concurrency to efficiently scan multiple ports simultaneously. For each port, it attempts to establish a TCP connection. If the connection is successful, it indicates that the port is open; otherwise, it assumes the port is either closed or filtered. The script prints the status of each port, either indicating it as open or specifying that it is closed or filtered. <br />
+3. toofast.go - This Go script is designed to quickly scan for open TCP ports on the host `scanme.nmap.org`. It targets ports from 1 to 1024, using goroutines to perform the scan concurrently, which significantly speeds up the process. For each port, the script tries to establish a TCP connection. If the connection succeeds, the port is marked as open, and its number is printed to the console. Each connection attempt runs in its own goroutine, allowing the script to efficiently complete the port scan. To test the speed of the script, you can run it and measure the time it takes with the command `time ./toofast.go`. <br />
 
 **Example output of some of the go commands, and scripts:** <br />
 1. Concurrentscan.go: <br />
@@ -108,3 +109,7 @@ pointer.go - The provided Go script demonstrates the usage of pointers in Go pro
    ... <br />
    1023 is open! <br />
    Port 1024 is closed or filtered <br />
+2. toofast.go: <br />
+   real    0m1.123s <br />
+   user    0m0.567s <br />
+   sys     0m0.234s <br />
