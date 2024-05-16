@@ -1,3 +1,10 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Author: Nicholas Fisher
+// Date: May 16 2024
+// Description of the Script
+// This Go script attempts to establish a TCP connection to the server "scanme.nmap.org" on port 80. If 
+// the connection is successful, it prints "Connection successful" to the console.
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
 package main // Declares that this file belongs to the main package, which can be executed as a standalone program.
 
 import (
