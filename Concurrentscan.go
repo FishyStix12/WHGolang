@@ -1,3 +1,13 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Author: Nicholas Fisher
+// Date: May 16 2024
+// Description of the Script
+//  This Go script conducts a TCP port scan on the server "scanme.nmap.org" across ports 1 through 1024. 
+// It utilizes concurrency to efficiently scan multiple ports simultaneously. For each port, it attempts 
+// to establish a TCP connection. If the connection is successful, it indicates that the port is open; 
+// otherwise, it assumes the port is either closed or filtered. The script prints the status of each port,
+// either indicating it as open or specifying that it is closed or filtered.
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
 package main // Declares that this file belongs to the main package, which can be executed as a standalone program.
 
 import (
