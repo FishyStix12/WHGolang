@@ -38,28 +38,28 @@
 **2. Maps:** <br />
      A map in Go is a data structure that represents a collection of key-value pairs, where each key is unique. It's similar to a dictionary in Python or an associative array in other languages. Maps are created using the make function, as demonstrated in the code. In the code, a map with string keys and string values is declared. Values can be accessed and modified using their corresponding keys. <br />
 
-**3. Pointers** <br />
+**3. Pointers:** <br />
      A pointer is a variable that stores the memory address of another variable. Pointers allow indirect access to the value of the variable they point to. They are used to share data between different parts of a program efficiently and to enable the manipulation of data indirectly. In Go, pointers are represented using the * symbol followed by the type of the variable they point to. <br />
 
-**4. Struct** <br />
+**4. Struct:** <br />
      A struct is a composite data type that groups together zero or more fields of possibly different types under a single name. It allows you to create custom data types by defining the structure of the data, similar to classes in object-oriented programming languages. Each field within a struct can have its own name and type. Structs are used to represent more complex data structures and enable better organization and management of related data in your programs. <br />
      
-**5. Interface** <br />
+**5. Interface:** <br />
      An interface is a type that specifies a set of method signatures. An interface defines behavior, but it does not provide implementations for the methods it declares. Instead, any type that implements all the methods declared in the interface is said to satisfy or implement the interface implicitly. This allows for polymorphic behavior, where different types can be treated interchangeably if they implement the same interface. Interfaces promote loose coupling between components and enable abstraction, making it easier to write modular and extensible code in Go. <br />
 
-**6. Function** <br />
+**6. Function:** <br />
      A function is a reusable block of code that performs a specific task. It consists of a function signature and a function body. The signature includes the function's name, parameters (if any), and return type (if any). The function body contains the code that defines the functionality of the function. <br />
 
-**7. Switch** <br />
+**7. Switch:** <br />
      A switch statement is used to evaluate an expression and match it against multiple possible cases. It provides a concise way to express a multi-way branch. <br />
 
-**8. For Loop** <br />
+**8. For Loop:** <br />
      A for loop is used to repeatedly execute a block of code until a specified condition is met. <br />
 
-**9. GoRoutines** <br />
+**9. GoRoutines:** <br />
      Goroutines are lightweight threads of execution managed by the Go runtime. Goroutines allow functions to be executed concurrently with other functions. They are multiplexed onto multiple OS threads so that multiple goroutines can run concurrently within a single OS thread. Goroutines are created using the go keyword followed by a function call. They provide a simple and efficient mechanism for concurrent programming in Go. <br />
 
-**10. Channels** <br />
+**10. Channels:** <br />
       Channels are a way for goroutines to communicate with each other and synchronize their execution. A channel in Go is a typed conduit through which you can send and receive values with the channel operator, <-. Channels provide a way for two goroutines to synchronize execution and coordinate their work. They can be thought of as pipes through which data can flow. Channels can be either buffered or unbuffered, and they enforce communication patterns between goroutines. <br />
 
 **The Following List gives a short description of all the scripts in this group:** <br />
