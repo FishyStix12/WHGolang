@@ -91,3 +91,20 @@ pointer.go - The provided Go script demonstrates the usage of pointers in Go pro
 ![image](https://github.com/FishyStix12/WHGolang/assets/102126354/8b870a1e-d488-4851-8f94-74511c35c748) <br />
 **The Following List gives a short description of all the scripts in this group:** <br />
 1. SimpleScan.go - This Go script attempts to establish a TCP connection to the server "scanme.nmap.org" on port 80. If the connection is successful, it prints "Connection successful" to the console. <br />
+2. Concurrentscan.go - This Go script conducts a TCP port scan on the server "scanme.nmap.org" across ports 1 through 1024. It utilizes concurrency to efficiently scan multiple ports simultaneously. For each port, it attempts to establish a TCP connection. If the connection is successful, it indicates that the port is open; otherwise, it assumes the port is either closed or filtered. The script prints the status of each port, either indicating it as open or specifying that it is closed or filtered. <br />
+
+**Example output of some of the go commands, and scripts:** <br />
+1. Concurrentscan.go: <br />
+   Port 1 is closed or filtered <br />
+   2 is open! <br />
+   Port 3 is closed or filtered <br />
+   Port 4 is closed or filtered <br />
+   ... <br />
+   80 is open! <br />
+   Port 81 is closed or filtered <br />
+   ... <br />
+   443 is open! <br />
+   Port 444 is closed or filtered <br />
+   ... <br />
+   1023 is open! <br />
+   Port 1024 is closed or filtered <br />
