@@ -110,7 +110,7 @@ pointer.go - The provided Go script demonstrates the usage of pointers in Go pro
    ... <br />
    1023 is open! <br />
    Port 1024 is closed or filtered <br />
-2. time ./toofast.go output: <br />
+2. `time ./toofast.go` output: <br />
    real    0m1.123s <br />
    user    0m0.567s <br />
    sys     0m0.234s <br />
