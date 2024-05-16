@@ -96,7 +96,7 @@ pointer.go - The provided Go script demonstrates the usage of pointers in Go pro
 4. worksfast.go - The provided Go script is a concurrent port scanner that checks the availability of ports from 1 to 1024 on the host `scanme.nmap.org`. It utilizes goroutines to handle each port scan concurrently, significantly speeding up the process. A `sync.WaitGroup` is used to ensure the main function waits for all goroutines to complete before exiting. For each port, the script attempts to establish a TCP connection; if successful, it prints the port number and closes the connection. Errors, such as connection refusals, are handled gracefully by simply returning from the goroutine. This approach demonstrates efficient use of Go's concurrency features to perform network operations. <br />
 
 **Example output of some of the go commands, and scripts:** <br />
-1. Concurrentscan.go: <br />
+1. Concurrentscan.go output: <br />
    Port 1 is closed or filtered <br />
    2 is open! <br />
    Port 3 is closed or filtered <br />
@@ -110,7 +110,7 @@ pointer.go - The provided Go script demonstrates the usage of pointers in Go pro
    ... <br />
    1023 is open! <br />
    Port 1024 is closed or filtered <br />
-2. time ./toofast.go: <br />
+2. time ./toofast.go output: <br />
    real    0m1.123s <br />
    user    0m0.567s <br />
    sys     0m0.234s <br />
