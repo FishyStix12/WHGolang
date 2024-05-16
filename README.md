@@ -89,4 +89,5 @@ pointer.go - The provided Go script demonstrates the usage of pointers in Go pro
 
 # Network Tools <br />
 ![image](https://github.com/FishyStix12/WHGolang/assets/102126354/8b870a1e-d488-4851-8f94-74511c35c748) <br />
-**Coming Soon!** <br />
+**The Following List gives a short description of all the scripts in this group:** <br />
+1. SimpleScan.go - This Go script attempts to establish a TCP connection to the server "scanme.nmap.org" on port 80. If the connection is successful, it prints "Connection successful" to the console. <br />
