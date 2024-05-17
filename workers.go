@@ -1,3 +1,16 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Author: Nicholas Fisher
+// Date: May 16 2024
+// Description of the Script
+// The script is a Go program that performs a basic port scan on the domain `scanme.nmap.org` to identify
+// which ports (from 1 to 1024) are open. It utilizes goroutines for concurrent execution, significantly
+// speeding up the scanning process. The `worker` function tries to establish a TCP connection to each port,
+// sending the port number to a results channel if the connection is successful, otherwise sending a zero.
+// The `main` function initializes channels for port numbers and results, spawns multiple worker goroutines,
+// and feeds port numbers into the ports channel. It then collects results, filters out closed ports, sorts 
+// the list of open ports, and prints each open port. This parallel approach enables efficient scanning and
+// demonstrates the power of concurrent programming in Go.
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
 package main
 
 import (
