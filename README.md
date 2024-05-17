@@ -94,6 +94,7 @@ pointer.go - The provided Go script demonstrates the usage of pointers in Go pro
 2. Concurrentscan.go - This Go script conducts a TCP port scan on the server "scanme.nmap.org" across ports 1 through 1024. It utilizes concurrency to efficiently scan multiple ports simultaneously. For each port, it attempts to establish a TCP connection. If the connection is successful, it indicates that the port is open; otherwise, it assumes the port is either closed or filtered. The script prints the status of each port, either indicating it as open or specifying that it is closed or filtered. <br />
 3. toofast.go - This Go script is designed to quickly scan for open TCP ports on the host `scanme.nmap.org`. It targets ports from 1 to 1024, using goroutines to perform the scan concurrently, which significantly speeds up the process. For each port, the script tries to establish a TCP connection. If the connection succeeds, the port is marked as open, and its number is printed to the console. Each connection attempt runs in its own goroutine, allowing the script to efficiently complete the port scan. To test the speed of the script, you can run it and measure the time it takes with the command `time ./toofast.go`. <br />
 4. worksfast.go - The provided Go script is a concurrent port scanner that checks the availability of ports from 1 to 1024 on the host `scanme.nmap.org`. It utilizes goroutines to handle each port scan concurrently, significantly speeding up the process. A `sync.WaitGroup` is used to ensure the main function waits for all goroutines to complete before exiting. For each port, the script attempts to establish a TCP connection; if successful, it prints the port number and closes the connection. Errors, such as connection refusals, are handled gracefully by simply returning from the goroutine. This approach demonstrates efficient use of Go's concurrency features to perform network operations. <br />
+5. workers.go - The script is a Go program that performs a basic port scan on the domain `scanme.nmap.org` to identify which ports (from 1 to 1024) are open. It utilizes goroutines for concurrent execution, significantly speeding up the scanning process. The `worker` function tries to establish a TCP connection to each port, sending the port number to a results channel if the connection is successful, otherwise sending a zero. The `main` function initializes channels for port numbers and results, spawns multiple worker goroutines, and feeds port numbers into the ports channel. It then collects results, filters out closed ports, sorts the list of open ports, and prints each open port. This parallel approach enables efficient scanning and demonstrates the power of concurrent programming in Go. <br />
 
 **Example output of some of the go commands, and scripts:** <br />
 1. Concurrentscan.go output: <br />
@@ -114,3 +115,7 @@ pointer.go - The provided Go script demonstrates the usage of pointers in Go pro
    real    0m1.123s <br />
    user    0m0.567s <br />
    sys     0m0.234s <br />
+3. workers.go output: <br />
+   22 open <br />
+   53 open <br />
+   80 open <br />
