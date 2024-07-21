@@ -7,7 +7,6 @@
 // using the range keyword, printing the index and value of each element.
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 package main // Declares the package name. A Go program starts running in package main.
-package main // Declares the package name. A Go program starts running in package main.
 
 import (
 	"fmt" // Imports the fmt package, which implements formatted I/O.
