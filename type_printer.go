@@ -9,7 +9,6 @@
 // This script serves as a basic illustration of type assertion and type switching in Go.
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 package main // Declares the package name. A Go program starts running in package main.
-package main // Package main declares the package name. A Go program starts running in package main.
 
 import (
 	"fmt" // Imports the fmt package, which implements formatted I/O.
